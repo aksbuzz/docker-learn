@@ -1,0 +1,25 @@
+{
+  "name": "docker-learn",
+  "version": "1.0.0",
+  "description": "Repo to learn docker",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksbuzz/docker-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aksbuzz/docker-learn/issues"
+  },
+  "homepage": "https://github.com/aksbuzz/docker-learn#readme",
+  "dependencies": {
+    "@fastify/redis": "^6.1.1",
+    "fastify": "^4.24.3"
+  }
+}
